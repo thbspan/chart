@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T03:19:13.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="pq4DtNxF8IKTuQkR6Wq0" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T07:01:49.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="IdCymjAjI-bPgA_qzEtA" version="14.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1982" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1761" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -40,6 +40,9 @@
           <mxGeometry x="-220" y="490" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DUBo2WiLGBw-R5Dcieuf-10" value="SmarkLifecycle" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-7" target="DUBo2WiLGBw-R5Dcieuf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-48" value="属性依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-7" target="DUBo2WiLGBw-R5Dcieuf-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DUBo2WiLGBw-R5Dcieuf-7" value="EurekaServerInitializerConfiguration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -95,11 +98,122 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-30" value="注册所有的监听器" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-24" target="DUBo2WiLGBw-R5Dcieuf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-37" value="syncUp" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1071" y="840" as="sourcePoint" />
+            <mxPoint x="819.125" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-44" value="openForTraffic" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-24" target="DUBo2WiLGBw-R5Dcieuf-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DUBo2WiLGBw-R5Dcieuf-24" value="EurekaServerContextHolder#initialize" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1070" y="780" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DUBo2WiLGBw-R5Dcieuf-26" value="创建EurekaServerContextHolder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="670" y="780" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-29" value="EurekaMonitorsr#registerAllStats" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1070" y="1140" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-33" value="服务同步" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;verticalAlign=top;fontStyle=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="920" width="440" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-35" value="服务剔除" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;verticalAlign=top;fontStyle=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1440" y="920" width="460" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-36" target="DUBo2WiLGBw-R5Dcieuf-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-36" value="registry#syncUp&lt;br&gt;从集群其他节点获取注册信息进行同步" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="970" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-38" target="DUBo2WiLGBw-R5Dcieuf-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-38" value="eurekaClient#getApplications&lt;br&gt;获取其他节点信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="1100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-41" value="registry&lt;br&gt;注册到本地" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="1220" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-43" target="DUBo2WiLGBw-R5Dcieuf-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-43" value="registry#openForTraffic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1520" y="970" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-45" value="postInit&lt;br&gt;开启定时任务EvictionTask，默认每60s一次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1505" y="1169" width="270" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-50" value="属性依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-47" target="DUBo2WiLGBw-R5Dcieuf-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-47" value="EurekaServerBootstrap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="170" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-55" value="PostConstruct初始化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-49" target="DUBo2WiLGBw-R5Dcieuf-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-49" value="EurekaServerContext&lt;br&gt;(DefaultEurekaServerContext)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="310" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-53" value="属性注入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-51" target="DUBo2WiLGBw-R5Dcieuf-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-51" value="peerEurekaNode&lt;br&gt;(RefreshablePeerEurekaNodes)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1320" y="310" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-54" target="DUBo2WiLGBw-R5Dcieuf-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-54" value="initialize" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="450" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-56" target="DUBo2WiLGBw-R5Dcieuf-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-56" target="DUBo2WiLGBw-R5Dcieuf-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-56" value="peerEurekaNodes#start" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="540" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-57" target="DUBo2WiLGBw-R5Dcieuf-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-57" value="peerAwareInstanceRegistry#init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="640" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-60" target="DUBo2WiLGBw-R5Dcieuf-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-60" value="创建单线程执行器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1390" y="540" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-62" target="DUBo2WiLGBw-R5Dcieuf-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-62" value="resolvePeerUrls解析集群配置的url&lt;br&gt;更新updatePeerEurekaNodes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1680" y="540" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-63" value="创建定时更新任务peersUpdateTask&lt;br&gt;默认600s执行一次更新操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1990" y="540" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-66" value="&lt;font color=&quot;#ff6666&quot;&gt;更新续约阈值&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;verticalAlign=top;fontStyle=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1390" y="620" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DUBo2WiLGBw-R5Dcieuf-67" target="DUBo2WiLGBw-R5Dcieuf-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-67" value="scheduleRenewalThreasholdUpdateTask&lt;br&gt;启用续约定时任务，默认900s一次" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1480" y="640" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DUBo2WiLGBw-R5Dcieuf-69" value="initRemoteRegionRegistry&lt;br&gt;初始化远程注册器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1480" y="750" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
